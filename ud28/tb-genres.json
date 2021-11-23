@@ -1,0 +1,145 @@
+{
+	"Arabic/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Belarusian/HSE": {
+		"fiction": "fiction",
+		"legal": "legal",
+		"news": "news",
+		"news-poll-question": "news",
+		"nonfiction": "nonfiction",
+		"poetry": "poetry",
+		"social-media": "social",
+		"social-media-poll-question": "social",
+		"social-media-poll-answer": "social",
+		"wiki": "wiki"
+	},
+	"Chinese/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Czech/CAC": {
+		"aw": "legal",
+		"nw": "news",
+		"sw": "nonfiction"
+	},
+	"Czech/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"English/EWT": {
+		"weblog": "blog",
+		"email": "email",
+		"reviews": "reviews",
+		"newsgroup": "social",
+		"answers": "social"
+	},
+	"English/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Finnish/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"French/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"German/LIT": {
+		"fragments": "nonfiction"
+	},
+	"German/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Hindi/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Icelandic/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Indonesian/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Italian/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Japanese/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Korean/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Polish/LFG": {
+		"news": "news",
+		"nonfiction": "nonfiction",
+		"social": "social",
+		"fiction": "fiction",
+		"spoken (conversational)": "spoken",
+		"spoken (media)": "spoken",
+		"spoken (prepared)": "spoken",
+		"blog": "blog",
+		"academic": "nonfiction",
+		"legal": "legal"
+	},
+	"Polish/PUD": {
+		"n": "news",
+		"w": "nonfiction"
+	},
+	"Portugese/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Russian/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Russian/Taiga": {
+		"social": "social",
+		"poetry": "poetry",
+		"news": "news",
+		"fiction": "fiction",
+		"wiki": "wiki",
+		"QA-health-question": "social",
+		"QA-health-answer-author": "social",
+		"QA-health-answer": "social",
+		"QA-health-question-title": "social",
+		"QA-travel-question": "social",
+		"QA-travel-answer": "social",
+		"review": "reviews",
+		"nonfiction": "nonfiction",
+		"QA-countries-question": "social",
+		"QA-lifestyle-question": "social",
+		"QA-relax-question": "social",
+		"QA-animals_plants-question": "social",
+		"QA-family-question": "social",
+		"QA-science-question": "social",
+		"QA-love-question": "social",
+		"QA-culture-question": "social",
+		"QA-society-question": "social"
+	},
+	"Spanish/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Swedish/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Thai/PUD": {
+		"n": "news",
+		"w": "wiki"
+	},
+	"Turkish/PUD": {
+		"n": "news",
+		"w": "wiki"
+	}
+}

@@ -1,0 +1,7867 @@
+{
+  "Afrikaans": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "AfriBooms": {
+        "files": {
+          "af_afribooms-ud-dev.conllu": {
+            "metadata": [
+              "org_sent_id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 194,
+            "tokens": 5317,
+            "words": 5317
+          },
+          "af_afribooms-ud-test.conllu": {
+            "metadata": [
+              "org_sent_id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 425,
+            "tokens": 10063,
+            "words": 10063
+          },
+          "af_afribooms-ud-train.conllu": {
+            "metadata": [
+              "org_sent_id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1315,
+            "tokens": 33880,
+            "words": 33880
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Akkadian": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "PISANDUB": {
+        "files": {
+          "akk_pisandub-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_eng"
+            ],
+            "sentences": 101,
+            "tokens": 1852,
+            "words": 1852
+          }
+        },
+        "genres": [
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)(_\\d+)?(_\\d+)')"
+        }
+      },
+      "RIAO": {
+        "files": {
+          "akk_riao-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1907,
+            "tokens": 21104,
+            "words": 23582
+          }
+        },
+        "genres": [
+          "government",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Akuntsu": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "aqz_tudet-ud-test.conllu": {
+            "metadata": [
+              "document_authorship",
+              "document_reference",
+              "document_source",
+              "sent_id",
+              "text",
+              "text_eng"
+            ],
+            "sentences": 101,
+            "tokens": 407,
+            "words": 408
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Albanian": {
+    "family": [
+      "IE",
+      "Albanian"
+    ],
+    "treebanks": {
+      "TSA": {
+        "files": {
+          "sq_tsa-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 60,
+            "tokens": 922,
+            "words": 922
+          }
+        },
+        "genres": [
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Amharic": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "ATT": {
+        "files": {
+          "am_att-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 1074,
+            "tokens": 5245,
+            "words": 10010
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "grammar-examples",
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)\\-s\\d+')"
+        }
+      }
+    }
+  },
+  "Ancient Greek": {
+    "family": [
+      "IE",
+      "Greek"
+    ],
+    "treebanks": {
+      "PROIEL": {
+        "files": {
+          "grc_proiel-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1019,
+            "tokens": 13652,
+            "words": 13652
+          },
+          "grc_proiel-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1047,
+            "tokens": 13314,
+            "words": 13314
+          },
+          "grc_proiel-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 15014,
+            "tokens": 187033,
+            "words": 187033
+          }
+        },
+        "genres": [
+          "bible",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('source')"
+        }
+      },
+      "Perseus": {
+        "files": {
+          "grc_perseus-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1137,
+            "tokens": 22135,
+            "words": 22135
+          },
+          "grc_perseus-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1306,
+            "tokens": 20959,
+            "words": 20959
+          },
+          "grc_perseus-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 11476,
+            "tokens": 159895,
+            "words": 159895
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Apurina": {
+    "treebanks": {
+      "UFPA": {
+        "files": {
+          "apu_ufpa-ud-test.conllu": {
+            "metadata": [
+              "gloss_en",
+              "gloss_pt",
+              "sent_id",
+              "text",
+              "text_en",
+              "text_orig",
+              "text_pt",
+              "unknown"
+            ],
+            "sentences": 88,
+            "tokens": 639,
+            "words": 642
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Arabic": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "NYUAD": {
+        "files": {
+          "ar_padt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 909,
+            "tokens": 25986,
+            "words": 25986
+          },
+          "ar_padt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 680,
+            "tokens": 24201,
+            "words": 24201
+          },
+          "ar_padt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 6075,
+            "tokens": 191869,
+            "words": 191869
+          }
+        },
+        "genres": [
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "PADT": {
+        "files": {
+          "ar_padt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 909,
+            "tokens": 25986,
+            "words": 30239
+          },
+          "ar_padt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 680,
+            "tokens": 24201,
+            "words": 28264
+          },
+          "ar_padt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 6075,
+            "tokens": 191869,
+            "words": 223881
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "ar_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "original_text",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 20751,
+            "words": 20751
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Armenian": {
+    "family": [
+      "IE",
+      "Armenian"
+    ],
+    "treebanks": {
+      "ArmTDP": {
+        "files": {
+          "hy_armtdp-ud-dev.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 249,
+            "tokens": 5348,
+            "words": 5359
+          },
+          "hy_armtdp-ud-test.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 278,
+            "tokens": 5080,
+            "words": 5166
+          },
+          "hy_armtdp-ud-train.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 1975,
+            "tokens": 41837,
+            "words": 42105
+          }
+        },
+        "genres": [
+          "blog",
+          "fiction",
+          "grammar-examples",
+          "legal",
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Assyrian": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "AS": {
+        "files": {
+          "aii_as-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 57,
+            "tokens": 453,
+            "words": 453
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Bambara": {
+    "family": [
+      "Mande"
+    ],
+    "treebanks": {
+      "CRB": {
+        "files": {
+          "bm_crb-ud-test.conllu": {
+            "metadata": [
+              "label",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1026,
+            "tokens": 13823,
+            "words": 13823
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)[\\.:]\\d+')"
+        }
+      }
+    }
+  },
+  "Basque": {
+    "family": [
+      "Basque"
+    ],
+    "treebanks": {
+      "BDT": {
+        "files": {
+          "eu_bdt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1798,
+            "tokens": 24095,
+            "words": 24095
+          },
+          "eu_bdt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1799,
+            "tokens": 24374,
+            "words": 24374
+          },
+          "eu_bdt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5396,
+            "tokens": 72974,
+            "words": 72974
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Beja": {
+    "treebanks": {
+      "NSC": {
+        "files": {
+          "bej_nsc-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text",
+              "text_en",
+              "tokenized_text"
+            ],
+            "sentences": 56,
+            "tokens": 1101,
+            "words": 1101
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Belarusian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "HSE": {
+        "files": {
+          "be_hse-ud-dev.conllu": {
+            "metadata": [
+              "author",
+              "author_forwarded",
+              "doc_id",
+              "file",
+              "genre",
+              "media",
+              "newdoc",
+              "reply_to_doc_id",
+              "sent_id",
+              "spelling",
+              "text",
+              "timestamp",
+              "unknown"
+            ],
+            "sentences": 1301,
+            "tokens": 15931,
+            "words": 15931
+          },
+          "be_hse-ud-test.conllu": {
+            "metadata": [
+              "author",
+              "author_forwarded",
+              "doc_id",
+              "file",
+              "genre",
+              "media",
+              "newdoc",
+              "reply_to_doc_id",
+              "sent_id",
+              "text",
+              "timestamp",
+              "unknown"
+            ],
+            "sentences": 1077,
+            "tokens": 15997,
+            "words": 15997
+          },
+          "be_hse-ud-train.conllu": {
+            "metadata": [
+              "author",
+              "author_forwarded",
+              "created",
+              "doc_id",
+              "file",
+              "genre",
+              "link",
+              "media",
+              "newdoc",
+              "reply_to_doc_id",
+              "sent_id",
+              "source-lang",
+              "spelling",
+              "text",
+              "timestamp",
+              "title",
+              "unknown"
+            ],
+            "sentences": 22853,
+            "tokens": 273171,
+            "words": 273171
+          }
+        },
+        "genres": [
+          "fiction",
+          "legal",
+          "news",
+          "nonfiction",
+          "poetry",
+          "social",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "comment('^newdoc.*')",
+          "genres": "metadata('genre')"
+        }
+      }
+    }
+  },
+  "Bhojpuri": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "BHTB": {
+        "files": {
+          "bho_bhtb-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 357,
+            "tokens": 6665,
+            "words": 6665
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "BhEn": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      }
+    }
+  },
+  "Breton": {
+    "family": [
+      "IE",
+      "Celtic"
+    ],
+    "treebanks": {
+      "KEB": {
+        "files": {
+          "br_keb-ud-test.conllu": {
+            "metadata": [
+              "labels",
+              "sent_id",
+              "text",
+              "text[eng]",
+              "text[fra]",
+              "text[fra\u00b9]",
+              "text[spa]"
+            ],
+            "sentences": 888,
+            "tokens": 9761,
+            "words": 10054
+          }
+        },
+        "genres": [
+          "fiction",
+          "grammar-examples",
+          "news",
+          "nonfiction",
+          "poetry",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+):\\d+:\\d+')"
+        }
+      }
+    }
+  },
+  "Bulgarian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "BTB": {
+        "files": {
+          "bg_btb-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1115,
+            "tokens": 16089,
+            "words": 16089
+          },
+          "bg_btb-ud-test.conllu": {
+            "metadata": [
+              "ToDoOrigtext",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1116,
+            "tokens": 15724,
+            "words": 15724
+          },
+          "bg_btb-ud-train.conllu": {
+            "metadata": [
+              "ToDoOrigtext",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 8907,
+            "tokens": 124336,
+            "words": 124336
+          }
+        },
+        "genres": [
+          "fiction",
+          "legal",
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Buryat": {
+    "family": [
+      "Mongolic"
+    ],
+    "treebanks": {
+      "BDT": {
+        "files": {
+          "bxr_bdt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 908,
+            "tokens": 10032,
+            "words": 10032
+          },
+          "bxr_bdt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 19,
+            "tokens": 153,
+            "words": 153
+          }
+        },
+        "genres": [
+          "fiction",
+          "grammar-examples",
+          "news"
+        ]
+      }
+    }
+  },
+  "Cantonese": {
+    "family": [
+      "Sino-Tibetan"
+    ],
+    "treebanks": {
+      "HK": {
+        "files": {
+          "yue_hk-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1004,
+            "tokens": 13918,
+            "words": 13918
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Catalan": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "AnCora": {
+        "files": {
+          "ca_ancora-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1709,
+            "tokens": 56321,
+            "words": 58015
+          },
+          "ca_ancora-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1846,
+            "tokens": 57786,
+            "words": 59502
+          },
+          "ca_ancora-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 13123,
+            "tokens": 416660,
+            "words": 429121
+          }
+        },
+        "genres": [
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('orig_file_sentence', '(?P<val>.+)#\\d+')"
+        }
+      }
+    }
+  },
+  "Chinese": {
+    "family": [
+      "Sino-Tibetan"
+    ],
+    "treebanks": {
+      "CFL": {
+        "files": {
+          "zh_cfl-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 451,
+            "tokens": 7256,
+            "words": 7256
+          }
+        },
+        "genres": [
+          "learner-essays"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)\\-[^\\-]+')"
+        }
+      },
+      "GSD": {
+        "files": {
+          "zh_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 12663,
+            "words": 12663
+          },
+          "zh_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 12012,
+            "words": 12012
+          },
+          "zh_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3997,
+            "tokens": 98616,
+            "words": 98616
+          }
+        },
+        "genres": [
+          "wiki"
+        ]
+      },
+      "GSDSimp": {
+        "files": {
+          "zh_gsdsimp-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 12663,
+            "words": 12663
+          },
+          "zh_gsdsimp-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 12012,
+            "words": 12012
+          },
+          "zh_gsdsimp-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3997,
+            "tokens": 98616,
+            "words": 98616
+          }
+        },
+        "genres": [
+          "wiki"
+        ]
+      },
+      "HK": {
+        "files": {
+          "zh_hk-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1004,
+            "tokens": 9874,
+            "words": 9874
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "zh_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 21415,
+            "words": 21415
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Chukchi": {
+    "treebanks": {
+      "HSE": {
+        "files": {
+          "ckt_hse-ud-test.conllu": {
+            "metadata": [
+              "comment",
+              "labels",
+              "sent_id",
+              "text",
+              "text[eng']",
+              "text[eng]",
+              "text[phon]",
+              "text[rus]",
+              "timestamp"
+            ],
+            "sentences": 1004,
+            "tokens": 5389,
+            "words": 6124
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Classical Chinese": {
+    "family": [
+      "Sino-Tibetan"
+    ],
+    "treebanks": {
+      "Kyoto": {
+        "files": {
+          "lzh_kyoto-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar text",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5296,
+            "tokens": 26114,
+            "words": 26114
+          },
+          "lzh_kyoto-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar text",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4470,
+            "tokens": 21798,
+            "words": 21798
+          },
+          "lzh_kyoto-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar text",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 45748,
+            "tokens": 221090,
+            "words": 221090
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar text')"
+        }
+      }
+    }
+  },
+  "Coptic": {
+    "family": [
+      "Afro-Asiatic",
+      "Egyptian"
+    ],
+    "treebanks": {
+      "Scriptorium": {
+        "files": {
+          "cop_scriptorium-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 381,
+            "tokens": 5240,
+            "words": 10960
+          },
+          "cop_scriptorium-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 403,
+            "tokens": 4986,
+            "words": 10373
+          },
+          "cop_scriptorium-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1089,
+            "tokens": 13074,
+            "words": 27299
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Croatian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "SET": {
+        "files": {
+          "hr_set-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 960,
+            "tokens": 22292,
+            "words": 22292
+          },
+          "hr_set-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 1136,
+            "tokens": 24260,
+            "words": 24260
+          },
+          "hr_set-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 6914,
+            "tokens": 152857,
+            "words": 152857
+          }
+        },
+        "genres": [
+          "news",
+          "web",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Czech": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "CAC": {
+        "files": {
+          "cs_cac-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 603,
+            "tokens": 10888,
+            "words": 10912
+          },
+          "cs_cac-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 628,
+            "tokens": 10824,
+            "words": 10862
+          },
+          "cs_cac-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 23478,
+            "tokens": 471594,
+            "words": 472609
+          }
+        },
+        "genres": [
+          "legal",
+          "medical",
+          "news",
+          "nonfiction",
+          "reviews"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('sent_id', '(?P<val0>[a-z]+?)\\d+(?P<val1>[a-z]+?)\\-s\\d+')"
+        }
+      },
+      "CLTT": {
+        "files": {
+          "cs_cltt-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 129,
+            "tokens": 4800,
+            "words": 4801
+          },
+          "cs_cltt-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 136,
+            "tokens": 4121,
+            "words": 4127
+          },
+          "cs_cltt-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 860,
+            "tokens": 27752,
+            "words": 27761
+          }
+        },
+        "genres": [
+          "legal"
+        ],
+        "groups": {
+          "documents": "metadata('orig_file_sentence', '(?P<val>.+)_\\d+#\\d+')",
+          "paragraphs": "metadata('orig_file_sentence', '(?P<val>.+_\\d+)#\\d+')"
+        }
+      },
+      "FicTree": {
+        "files": {
+          "cs_fictree-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1309,
+            "tokens": 16652,
+            "words": 16714
+          },
+          "cs_fictree-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1291,
+            "tokens": 16643,
+            "words": 16705
+          },
+          "cs_fictree-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 10160,
+            "tokens": 133137,
+            "words": 133637
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "PDT": {
+        "files": {
+          "cs_pdt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 9270,
+            "tokens": 158958,
+            "words": 159284
+          },
+          "cs_pdt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 10148,
+            "tokens": 173584,
+            "words": 173918
+          },
+          "cs_pdt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 68495,
+            "tokens": 1171190,
+            "words": 1173282
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction",
+          "reviews"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "PUD": {
+        "files": {
+          "cs_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 18567,
+            "words": 18612
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Danish": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "DDT": {
+        "files": {
+          "da_ddt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 564,
+            "tokens": 10332,
+            "words": 10332
+          },
+          "da_ddt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 565,
+            "tokens": 10023,
+            "words": 10023
+          },
+          "da_ddt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4383,
+            "tokens": 80378,
+            "words": 80378
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction",
+          "spoken"
+        ]
+      },
+      "DTB": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      }
+    }
+  },
+  "Dutch": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "Alpino": {
+        "files": {
+          "nl_alpino-ud-dev.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 718,
+            "tokens": 11541,
+            "words": 11541
+          },
+          "nl_alpino-ud-test.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 596,
+            "tokens": 11046,
+            "words": 11046
+          },
+          "nl_alpino-ud-train.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 12289,
+            "tokens": 186026,
+            "words": 186026
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "LassySmall": {
+        "files": {
+          "nl_lassysmall-ud-dev.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 676,
+            "tokens": 11397,
+            "words": 11397
+          },
+          "nl_lassysmall-ud-test.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 876,
+            "tokens": 11576,
+            "words": 11576
+          },
+          "nl_lassysmall-ud-train.conllu": {
+            "metadata": [
+              "auto",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 5789,
+            "tokens": 75134,
+            "words": 75134
+          }
+        },
+        "genres": [
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('source', '(?P<val>.+)\\.p\\.\\d+\\.s\\.\\d+\\.xml')"
+        }
+      }
+    }
+  },
+  "English": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "BhEn": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      },
+      "ESL": {
+        "files": {
+          "en_esl-ud-dev.conllu": {
+            "metadata": [
+              "error_annotation",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 9549,
+            "words": 9549
+          },
+          "en_esl-ud-test.conllu": {
+            "metadata": [
+              "error_annotation",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 500,
+            "tokens": 9591,
+            "words": 9591
+          },
+          "en_esl-ud-train.conllu": {
+            "metadata": [
+              "error_annotation",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4124,
+            "tokens": 78541,
+            "words": 78541
+          }
+        },
+        "genres": [
+          "learner-essays"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "EWT": {
+        "files": {
+          "en_ewt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2001,
+            "tokens": 24789,
+            "words": 25149
+          },
+          "en_ewt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2077,
+            "tokens": 24740,
+            "words": 25097
+          },
+          "en_ewt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 12543,
+            "tokens": 201969,
+            "words": 204584
+          }
+        },
+        "genres": [
+          "blog",
+          "email",
+          "reviews",
+          "social"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')",
+          "genres": "metadata('sent_id', '^(?P<val>[a-z]+?)-')"
+        }
+      },
+      "GUM": {
+        "files": {
+          "en_gum-ud-dev.conllu": {
+            "metadata": [
+              "addressee",
+              "global.Entity",
+              "meta::dateCollected",
+              "meta::dateCreated",
+              "meta::dateModified",
+              "meta::sourceURL",
+              "meta::speakerCount",
+              "meta::title",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 843,
+            "tokens": 15932,
+            "words": 16164
+          },
+          "en_gum-ud-test.conllu": {
+            "metadata": [
+              "addressee",
+              "global.Entity",
+              "meta::dateCollected",
+              "meta::dateCreated",
+              "meta::dateModified",
+              "meta::sourceURL",
+              "meta::speakerCount",
+              "meta::title",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 895,
+            "tokens": 15880,
+            "words": 16066
+          },
+          "en_gum-ud-train.conllu": {
+            "metadata": [
+              "addressee",
+              "global.Entity",
+              "meta::dateCollected",
+              "meta::dateCreated",
+              "meta::dateModified",
+              "meta::sourceURL",
+              "meta::speakerCount",
+              "meta::title",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 5664,
+            "tokens": 101024,
+            "words": 102258
+          }
+        },
+        "genres": [
+          "academic",
+          "blog",
+          "fiction",
+          "government",
+          "news",
+          "nonfiction",
+          "social",
+          "spoken",
+          "web",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "GUMReddit": {
+        "files": {
+          "en_gumreddit-ud-dev.conllu": {
+            "metadata": [
+              "addressee",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 150,
+            "tokens": 2489,
+            "words": 2489
+          },
+          "en_gumreddit-ud-test.conllu": {
+            "metadata": [
+              "addressee",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 158,
+            "tokens": 2966,
+            "words": 2966
+          },
+          "en_gumreddit-ud-train.conllu": {
+            "metadata": [
+              "addressee",
+              "newdoc id",
+              "s_type",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 587,
+            "tokens": 10831,
+            "words": 10831
+          }
+        },
+        "genres": [
+          "blog",
+          "social"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc docid')"
+        }
+      },
+      "LinES": {
+        "files": {
+          "en_lines-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1032,
+            "tokens": 19170,
+            "words": 19170
+          },
+          "en_lines-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1035,
+            "tokens": 17675,
+            "words": 17675
+          },
+          "en_lines-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3176,
+            "tokens": 57372,
+            "words": 57372
+          }
+        },
+        "genres": [
+          "fiction",
+          "nonfiction",
+          "spoken"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "en_pud-ud-test.conllu": {
+            "metadata": [
+              "Checktree:",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1000,
+            "tokens": 21176,
+            "words": 21176
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "ParTUT": {
+        "files": {
+          "en_partut-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 156,
+            "tokens": 2721,
+            "words": 2722
+          },
+          "en_partut-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 153,
+            "tokens": 3404,
+            "words": 3408
+          },
+          "en_partut-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1781,
+            "tokens": 43477,
+            "words": 43504
+          }
+        },
+        "genres": [
+          "legal",
+          "news",
+          "wiki"
+        ]
+      },
+      "Pronouns": {
+        "files": {
+          "en_pronouns-ud-test.conllu": {
+            "metadata": [
+              "comment",
+              "previous",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 285,
+            "tokens": 1705,
+            "words": 1705
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      }
+    }
+  },
+  "Erzya": {
+    "family": [
+      "Uralic",
+      "Mordvin"
+    ],
+    "treebanks": {
+      "JR": {
+        "files": {
+          "myv_jr-ud-test.conllu": {
+            "metadata": [
+              "-:- coding",
+              "<?xml version",
+              "<text xmlns:xsi",
+              "author_first_name",
+              "author_last_name",
+              "author_patronym",
+              "birth_geo_myv",
+              "characterCount",
+              "comment",
+              "correctionYear",
+              "corrector_first_name",
+              "corrector_last_name",
+              "firstPage",
+              "first_page",
+              "genre_eng",
+              "genre_fin",
+              "genre_myv",
+              "lastPage",
+              "last_page",
+              "license",
+              "native_language",
+              "publicationName",
+              "publicationPlace",
+              "publicationYear",
+              "publication_status",
+              "publisher",
+              "sent_id",
+              "status_eng",
+              "status_fin",
+              "story_id",
+              "text",
+              "text[eng]",
+              "text_en",
+              "text_fi",
+              "text_orig",
+              "title_eng",
+              "title_fin",
+              "title_myv",
+              "unknown",
+              "wordCount",
+              "xml:lang"
+            ],
+            "sentences": 1690,
+            "tokens": 17074,
+            "words": 17147
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+):.+')"
+        }
+      }
+    }
+  },
+  "Estonian": {
+    "family": [
+      "Uralic",
+      "Finnic"
+    ],
+    "treebanks": {
+      "EDT": {
+        "files": {
+          "et_edt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3125,
+            "tokens": 44630,
+            "words": 44630
+          },
+          "et_edt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3214,
+            "tokens": 48491,
+            "words": 48491
+          },
+          "et_edt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 24633,
+            "tokens": 344646,
+            "words": 344646
+          }
+        },
+        "genres": [
+          "academic",
+          "fiction",
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "EWT": {
+        "files": {
+          "et_ewt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 743,
+            "tokens": 8956,
+            "words": 8956
+          },
+          "et_ewt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 913,
+            "tokens": 13156,
+            "words": 13156
+          },
+          "et_ewt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3880,
+            "tokens": 46758,
+            "words": 46758
+          }
+        },
+        "genres": [
+          "blog",
+          "social",
+          "web"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Faroese": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "FarPaHC": {
+        "files": {
+          "fo_farpahc-ud-dev.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 300,
+            "tokens": 8739,
+            "words": 8746
+          },
+          "fo_farpahc-ud-test.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 301,
+            "tokens": 8643,
+            "words": 8644
+          },
+          "fo_farpahc-ud-train.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1020,
+            "tokens": 23089,
+            "words": 23094
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "nonfiction"
+        ]
+      },
+      "OFT": {
+        "files": {
+          "fo_oft-ud-test.conllu": {
+            "metadata": [
+              "labels",
+              "sent_id",
+              "text",
+              "text[eng]"
+            ],
+            "sentences": 1208,
+            "tokens": 10002,
+            "words": 10002
+          }
+        },
+        "genres": [
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Finnish": {
+    "family": [
+      "Uralic",
+      "Finnic"
+    ],
+    "treebanks": {
+      "FTB": {
+        "files": {
+          "fi_ftb-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1875,
+            "tokens": 15694,
+            "words": 15724
+          },
+          "fi_ftb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1867,
+            "tokens": 16261,
+            "words": 16286
+          },
+          "fi_ftb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 14981,
+            "tokens": 127361,
+            "words": 127602
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      },
+      "OOD": {
+        "files": {
+          "fi_ood-ud-test.conllu": {
+            "metadata": [
+              "<doc id",
+              "RT",
+              "comment_id",
+              "doc_id",
+              "document",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "thread_id",
+              "unknown",
+              "url"
+            ],
+            "sentences": 2122,
+            "tokens": 19363,
+            "words": 19382
+          }
+        },
+        "genres": [
+          "medical",
+          "poetry",
+          "social",
+          "web"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "fi_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 15807,
+            "words": 15813
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "TDT": {
+        "files": {
+          "fi_tdt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1364,
+            "tokens": 18290,
+            "words": 18308
+          },
+          "fi_tdt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1555,
+            "tokens": 21043,
+            "words": 21070
+          },
+          "fi_tdt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 12217,
+            "tokens": 162622,
+            "words": 162821
+          }
+        },
+        "genres": [
+          "blog",
+          "fiction",
+          "grammar-examples",
+          "legal",
+          "news",
+          "wiki"
+        ],
+        "sentences": 15136,
+        "tokens": 201955,
+        "words": 202199
+      }
+    }
+  },
+  "French": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "CrapBank": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      },
+      "FQB": {
+        "files": {
+          "fr_fqb-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2289,
+            "tokens": 23349,
+            "words": 23901
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "FTB": {
+        "files": {
+          "fr_ftb-ud-dev.conllu": {
+            "metadata": [
+              "sentid",
+              "text"
+            ],
+            "sentences": 1235,
+            "tokens": 38763,
+            "words": 40066
+          },
+          "fr_ftb-ud-test.conllu": {
+            "metadata": [
+              "#|",
+              "sentid",
+              "text"
+            ],
+            "sentences": 2541,
+            "tokens": 75073,
+            "words": 77358
+          },
+          "fr_ftb-ud-train.conllu": {
+            "metadata": [
+              "#|",
+              "sentid",
+              "text",
+              "type",
+              "unknown"
+            ],
+            "sentences": 14759,
+            "tokens": 442228,
+            "words": 455946
+          },
+          "fr_gsd-ud-dev.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1476,
+            "tokens": 34661,
+            "words": 34661
+          },
+          "fr_gsd-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 416,
+            "tokens": 9740,
+            "words": 9740
+          },
+          "fr_gsd-ud-train.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 14449,
+            "tokens": 344975,
+            "words": 344975
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "GSD": {
+        "files": {
+          "fr_gsd-ud-dev.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1476,
+            "tokens": 34650,
+            "words": 35707
+          },
+          "fr_gsd-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 416,
+            "tokens": 9733,
+            "words": 10013
+          },
+          "fr_gsd-ud-train.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 14449,
+            "tokens": 344841,
+            "words": 354529
+          }
+        },
+        "genres": [
+          "blog",
+          "news",
+          "reviews",
+          "wiki"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "fr_pud-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 24131,
+            "words": 24726
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "ParTUT": {
+        "files": {
+          "fr_partut-ud-dev.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 107,
+            "tokens": 1822,
+            "words": 1870
+          },
+          "fr_partut-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 110,
+            "tokens": 2514,
+            "words": 2603
+          },
+          "fr_partut-ud-train.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 803,
+            "tokens": 23322,
+            "words": 24122
+          }
+        },
+        "genres": [
+          "legal",
+          "news",
+          "wiki"
+        ]
+      },
+      "Sequoia": {
+        "files": {
+          "fr_sequoia-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 412,
+            "tokens": 9717,
+            "words": 9999
+          },
+          "fr_sequoia-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 456,
+            "tokens": 9734,
+            "words": 10044
+          },
+          "fr_sequoia-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2231,
+            "tokens": 49145,
+            "words": 50505
+          }
+        },
+        "genres": [
+          "medical",
+          "news",
+          "nonfiction",
+          "wiki"
+        ]
+      },
+      "Spoken": {
+        "files": {
+          "fr_spoken-ud-dev.conllu": {
+            "metadata": [
+              "global.columns",
+              "macrosyntax",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 919,
+            "tokens": 9826,
+            "words": 9973
+          },
+          "fr_spoken-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "macrosyntax",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 743,
+            "tokens": 9833,
+            "words": 9968
+          },
+          "fr_spoken-ud-train.conllu": {
+            "metadata": [
+              "global.columns",
+              "macrosyntax",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 1175,
+            "tokens": 14780,
+            "words": 15031
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Frisian Dutch": {
+    "treebanks": {
+      "Fame": {
+        "files": {
+          "qfn_fame-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "speaker",
+              "text",
+              "text_switch"
+            ],
+            "sentences": 400,
+            "tokens": 3729,
+            "words": 3729
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Galician": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "CTG": {
+        "files": {
+          "gl_ctg-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 860,
+            "tokens": 27009,
+            "words": 29772
+          },
+          "gl_ctg-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 861,
+            "tokens": 27074,
+            "words": 29738
+          },
+          "gl_ctg-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2272,
+            "tokens": 71928,
+            "words": 79327
+          }
+        },
+        "genres": [
+          "legal",
+          "medical",
+          "news",
+          "nonfiction"
+        ]
+      },
+      "TreeGal": {
+        "files": {
+          "gl_treegal-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 400,
+            "tokens": 9323,
+            "words": 10112
+          },
+          "gl_treegal-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 600,
+            "tokens": 14158,
+            "words": 15436
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "German": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "GSD": {
+        "files": {
+          "de_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 799,
+            "tokens": 12322,
+            "words": 12486
+          },
+          "de_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 977,
+            "tokens": 16224,
+            "words": 16498
+          },
+          "de_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 13814,
+            "tokens": 259194,
+            "words": 263804
+          }
+        },
+        "genres": [
+          "news",
+          "reviews",
+          "wiki"
+        ]
+      },
+      "HDT": {
+        "files": {
+          "de_hdt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 18434,
+            "tokens": 319513,
+            "words": 319513
+          },
+          "de_hdt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 18459,
+            "tokens": 326250,
+            "words": 326250
+          },
+          "de_hdt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 153035,
+            "tokens": 2753627,
+            "words": 2753627
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction",
+          "web"
+        ]
+      },
+      "LIT": {
+        "files": {
+          "de_lit-ud-test.conllu": {
+            "metadata": [
+              "author",
+              "genre",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "work"
+            ],
+            "sentences": 1922,
+            "tokens": 40335,
+            "words": 40440
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ],
+        "groups": {
+          "authors": "metadata('author')",
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('genre')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "PUD": {
+        "files": {
+          "de_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 21001,
+            "words": 21329
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Gothic": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "PROIEL": {
+        "files": {
+          "got_proiel-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 985,
+            "tokens": 10114,
+            "words": 10114
+          },
+          "got_proiel-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1029,
+            "tokens": 10198,
+            "words": 10198
+          },
+          "got_proiel-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 3387,
+            "tokens": 35024,
+            "words": 35024
+          }
+        },
+        "genres": [
+          "bible"
+        ],
+        "groups": {
+          "documents": "metadata('source')"
+        }
+      }
+    }
+  },
+  "Greek": {
+    "family": [
+      "IE",
+      "Greek"
+    ],
+    "treebanks": {
+      "GDT": {
+        "files": {
+          "el_gdt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 403,
+            "tokens": 10139,
+            "words": 10443
+          },
+          "el_gdt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 456,
+            "tokens": 10422,
+            "words": 10672
+          },
+          "el_gdt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1662,
+            "tokens": 41212,
+            "words": 42326
+          }
+        },
+        "genres": [
+          "news",
+          "spoken",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Guajajara": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "gub_tudet-ud-test.conllu": {
+            "metadata": [
+              "ADV",
+              "O",
+              "PP",
+              "S",
+              "V",
+              "sent_id",
+              "text",
+              "text_eng",
+              "text_port",
+              "text_spa",
+              "unknown"
+            ],
+            "sentences": 103,
+            "tokens": 589,
+            "words": 610
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Hebrew": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "HTB": {
+        "files": {
+          "he_htb-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 484,
+            "tokens": 8358,
+            "words": 11412
+          },
+          "he_htb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 491,
+            "tokens": 8827,
+            "words": 12282
+          },
+          "he_htb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5241,
+            "tokens": 98346,
+            "words": 137717
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Hindi": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "HDTB": {
+        "files": {
+          "hi_hdtb-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1659,
+            "tokens": 35217,
+            "words": 35217
+          },
+          "hi_hdtb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1684,
+            "tokens": 35430,
+            "words": 35430
+          },
+          "hi_hdtb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 13304,
+            "tokens": 281057,
+            "words": 281057
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "hi_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 23829,
+            "words": 23829
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Hindi English": {
+    "family": [
+      "Code switching"
+    ],
+    "treebanks": {
+      "HIENCS": {
+        "files": {
+          "qhe_hiencs-ud-dev.conllu": {
+            "metadata": [],
+            "sentences": 225,
+            "tokens": 3411,
+            "words": 3411
+          },
+          "qhe_hiencs-ud-test.conllu": {
+            "metadata": [],
+            "sentences": 225,
+            "tokens": 3295,
+            "words": 3295
+          },
+          "qhe_hiencs-ud-train.conllu": {
+            "metadata": [],
+            "sentences": 1448,
+            "tokens": 20203,
+            "words": 20203
+          }
+        },
+        "genres": [
+          "social"
+        ]
+      }
+    }
+  },
+  "Hungarian": {
+    "treebanks": {
+      "Szeged": {
+        "files": {
+          "hu_szeged-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 441,
+            "tokens": 11418,
+            "words": 11418
+          },
+          "hu_szeged-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 449,
+            "tokens": 10448,
+            "words": 10448
+          },
+          "hu_szeged-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 910,
+            "tokens": 20166,
+            "words": 20166
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Icelandic": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "IcePaHC": {
+        "files": {
+          "is_icepahc-ud-dev.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4865,
+            "tokens": 139384,
+            "words": 139606
+          },
+          "is_icepahc-ud-test.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5157,
+            "tokens": 139578,
+            "words": 139697
+          },
+          "is_icepahc-ud-train.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 34007,
+            "tokens": 704716,
+            "words": 705754
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "legal",
+          "nonfiction"
+        ]
+      },
+      "Modern": {
+        "files": {
+          "is_modern-ud-dev.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 784,
+            "tokens": 17102,
+            "words": 17105
+          },
+          "is_modern-ud-test.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 768,
+            "tokens": 17179,
+            "words": 17179
+          },
+          "is_modern-ud-train.conllu": {
+            "metadata": [
+              "X_ID",
+              "X_IDs",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5376,
+            "tokens": 123853,
+            "words": 123866
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "is_pud-ud-test.conllu": {
+            "metadata": [
+              "Checktree:",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en",
+              "unknown"
+            ],
+            "sentences": 1000,
+            "tokens": 18831,
+            "words": 18833
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Indonesian": {
+    "family": [
+      "Austronesian",
+      "Malayo-Sumbawan"
+    ],
+    "treebanks": {
+      "CSUI": {
+        "files": {
+          "id_csui-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 374,
+            "tokens": 9867,
+            "words": 10041
+          },
+          "id_csui-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 656,
+            "tokens": 17904,
+            "words": 18222
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "GSD": {
+        "files": {
+          "id_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 559,
+            "tokens": 12474,
+            "words": 12474
+          },
+          "id_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 557,
+            "tokens": 11622,
+            "words": 11622
+          },
+          "id_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4477,
+            "tokens": 96485,
+            "words": 96485
+          }
+        },
+        "genres": [
+          "blog",
+          "news"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "id_pud-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 19033,
+            "words": 19442
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>[a-z]\\d{5})\\d+')",
+          "genres": "metadata('sent_id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Irish": {
+    "family": [
+      "IE",
+      "Celtic"
+    ],
+    "treebanks": {
+      "IDT": {
+        "files": {
+          "ga_idt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 451,
+            "tokens": 10000,
+            "words": 10000
+          },
+          "ga_idt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 454,
+            "tokens": 10109,
+            "words": 10109
+          },
+          "ga_idt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4005,
+            "tokens": 95881,
+            "words": 95881
+          }
+        },
+        "genres": [
+          "fiction",
+          "government",
+          "legal",
+          "news",
+          "web"
+        ]
+      },
+      "TwittIrish": {
+        "files": {
+          "ga_twittirish-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 866,
+            "tokens": 15433,
+            "words": 15433
+          }
+        },
+        "genres": [
+          "social"
+        ]
+      }
+    }
+  },
+  "Italian": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "ISDT": {
+        "files": {
+          "it_isdt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 564,
+            "tokens": 11133,
+            "words": 11908
+          },
+          "it_isdt-ud-test.conllu": {
+            "metadata": [
+              "newdoc",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 482,
+            "tokens": 9680,
+            "words": 10417
+          },
+          "it_isdt-ud-train.conllu": {
+            "metadata": [
+              "newdoc",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 13121,
+            "tokens": 257617,
+            "words": 276018
+          }
+        },
+        "genres": [
+          "legal",
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc')"
+        }
+      },
+      "PUD": {
+        "files": {
+          "it_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 22182,
+            "words": 23731
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "ParTUT": {
+        "files": {
+          "it_partut-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 156,
+            "tokens": 2786,
+            "words": 2984
+          },
+          "it_partut-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 153,
+            "tokens": 3351,
+            "words": 3640
+          },
+          "it_partut-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1781,
+            "tokens": 45477,
+            "words": 48934
+          }
+        },
+        "genres": [
+          "legal",
+          "news",
+          "wiki"
+        ]
+      },
+      "PoSTWITA": {
+        "files": {
+          "it_postwita-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 671,
+            "tokens": 11862,
+            "words": 12344
+          },
+          "it_postwita-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 674,
+            "tokens": 12124,
+            "words": 12676
+          },
+          "it_postwita-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 5368,
+            "tokens": 95407,
+            "words": 99537
+          }
+        },
+        "genres": [
+          "social"
+        ]
+      },
+      "TWITTIRO": {
+        "files": {
+          "it_twittiro-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "twittiro"
+            ],
+            "sentences": 144,
+            "tokens": 2855,
+            "words": 2995
+          },
+          "it_twittiro-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "twittiro"
+            ],
+            "sentences": 142,
+            "tokens": 2876,
+            "words": 2976
+          },
+          "it_twittiro-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "twittiro"
+            ],
+            "sentences": 1138,
+            "tokens": 22658,
+            "words": 23634
+          }
+        },
+        "genres": [
+          "social"
+        ]
+      },
+      "VIT": {
+        "files": {
+          "it_vit-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 743,
+            "tokens": 25965,
+            "words": 28530
+          },
+          "it_vit-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1067,
+            "tokens": 24736,
+            "words": 26371
+          },
+          "it_vit-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 8277,
+            "tokens": 208778,
+            "words": 225083
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "Valico": {
+        "files": {
+          "it_valico-ud-test.conllu": {
+            "metadata": [
+              "err",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 398,
+            "tokens": 6508,
+            "words": 6784
+          }
+        },
+        "genres": [
+          "learner-essays"
+        ]
+      }
+    }
+  },
+  "Japanese": {
+    "family": [
+      "Japanese"
+    ],
+    "treebanks": {
+      "BCCWJ": {
+        "files": {
+          "ja_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 501,
+            "tokens": 12089,
+            "words": 12089
+          },
+          "ja_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 543,
+            "tokens": 13034,
+            "words": 13034
+          },
+          "ja_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 7027,
+            "tokens": 167482,
+            "words": 167482
+          }
+        },
+        "genres": [
+          "blog",
+          "news"
+        ]
+      },
+      "GSD": {
+        "files": {
+          "ja_gsd-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 507,
+            "tokens": 12287,
+            "words": 12287
+          },
+          "ja_gsd-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 543,
+            "tokens": 13034,
+            "words": 13034
+          },
+          "ja_gsd-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 7050,
+            "tokens": 168333,
+            "words": 168333
+          }
+        },
+        "genres": [
+          "blog",
+          "news"
+        ]
+      },
+      "KTC": {
+        "sentences": 7158,
+        "tokens": 189943,
+        "words": 189943
+      },
+      "Modern": {
+        "files": {
+          "ja_modern-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 822,
+            "tokens": 14494,
+            "words": 14494
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "ja_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 28788,
+            "words": 28788
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Kaapor": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "urb_tudet-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_eng",
+              "text_por",
+              "text_pt"
+            ],
+            "sentences": 61,
+            "tokens": 240,
+            "words": 240
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Kangri": {
+    "treebanks": {
+      "KDTB": {
+        "files": {
+          "xnr_kdtb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 288,
+            "tokens": 2514,
+            "words": 2514
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Karelian": {
+    "family": [
+      "Uralic",
+      "Finnic"
+    ],
+    "treebanks": {
+      "KKPP": {
+        "files": {
+          "krl_kkpp-ud-test.conllu": {
+            "metadata": [
+              "XXX:",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 228,
+            "tokens": 3094,
+            "words": 3094
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction",
+          "web"
+        ]
+      }
+    }
+  },
+  "Kazakh": {
+    "family": [
+      "Turkic",
+      "Northwestern"
+    ],
+    "treebanks": {
+      "KTB": {
+        "files": {
+          "kk_ktb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1047,
+            "tokens": 9873,
+            "words": 10007
+          },
+          "kk_ktb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 31,
+            "tokens": 511,
+            "words": 529
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Khunsari": {
+    "treebanks": {
+      "AHA": {
+        "files": {
+          "kfm_aha-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_fa"
+            ],
+            "sentences": 10,
+            "tokens": 74,
+            "words": 74
+          }
+        },
+        "genres": [
+          "grammar-examples",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Kiche": {
+    "treebanks": {
+      "IU": {
+        "files": {
+          "quc_iu-ud-test.conllu": {
+            "metadata": [
+              "label",
+              "labels",
+              "note",
+              "notes",
+              "sent_id",
+              "test[spa]",
+              "text",
+              "text[eng]",
+              "text[gloss]",
+              "text[orig]",
+              "text[spa']",
+              "text[spa]"
+            ],
+            "sentences": 1435,
+            "tokens": 9396,
+            "words": 10013
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "government",
+          "grammar-examples",
+          "legal",
+          "medical",
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Komi Permyak": {
+    "family": [
+      "Uralic",
+      "Permic"
+    ],
+    "treebanks": {
+      "UH": {
+        "files": {
+          "koi_uh-ud-test.conllu": {
+            "metadata": [
+              "-:- coding",
+              "aannotation",
+              "sent_id",
+              "text",
+              "text_fi",
+              "text_kpv",
+              "text_mdf",
+              "text_olo",
+              "text_orig",
+              "text_ru",
+              "text_rus",
+              "text_sms"
+            ],
+            "sentences": 81,
+            "tokens": 839,
+            "words": 839
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+):.+')"
+        }
+      }
+    }
+  },
+  "Komi Zyrian": {
+    "family": [
+      "Uralic",
+      "Permic"
+    ],
+    "treebanks": {
+      "IKDP": {
+        "files": {
+          "kpv_ikdp-ud-test.conllu": {
+            "metadata": [
+              "comment",
+              "corpus_version",
+              "label",
+              "sent_id",
+              "text",
+              "text_en",
+              "text_end",
+              "text_eng",
+              "text_rus"
+            ],
+            "sentences": 214,
+            "tokens": 2304,
+            "words": 2309
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      },
+      "Lattice": {
+        "files": {
+          "kpv_lattice-ud-test.conllu": {
+            "metadata": [
+              "comment",
+              "questions",
+              "sent_id",
+              "text",
+              "text_en",
+              "text_koi",
+              "text_orig",
+              "text_rus",
+              "\u00a0comment"
+            ],
+            "sentences": 658,
+            "tokens": 7960,
+            "words": 8012
+          }
+        },
+        "genres": [
+          "fiction"
+        ]
+      }
+    }
+  },
+  "Korean": {
+    "family": [
+      "Korean"
+    ],
+    "treebanks": {
+      "GSD": {
+        "files": {
+          "ko_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 950,
+            "tokens": 11958,
+            "words": 11958
+          },
+          "ko_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 989,
+            "tokens": 11677,
+            "words": 11677
+          },
+          "ko_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4400,
+            "tokens": 56687,
+            "words": 56687
+          }
+        },
+        "genres": [
+          "blog",
+          "news"
+        ]
+      },
+      "Kaist": {
+        "files": {
+          "ko_kaist-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2066,
+            "tokens": 25278,
+            "words": 25278
+          },
+          "ko_kaist-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2287,
+            "tokens": 28366,
+            "words": 28366
+          },
+          "ko_kaist-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 23010,
+            "tokens": 296446,
+            "words": 296446
+          }
+        },
+        "genres": [
+          "academic",
+          "fiction",
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)\\-s\\d+')"
+        }
+      },
+      "PUD": {
+        "files": {
+          "ko_pud-ud-test.conllu": {
+            "metadata": [
+              "ToDoOrigText",
+              "sent_id",
+              "text",
+              "text_en",
+              "translit"
+            ],
+            "sentences": 1000,
+            "tokens": 16584,
+            "words": 16584
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>[a-z]\\d{5})\\d+')",
+          "genres": "metadata('sent_id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "Penn": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      },
+      "Sejong": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      }
+    }
+  },
+  "Kurmanji": {
+    "family": [
+      "IE",
+      "Iranian"
+    ],
+    "treebanks": {
+      "MG": {
+        "files": {
+          "kmr_mg-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 734,
+            "tokens": 9946,
+            "words": 10018
+          },
+          "kmr_mg-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 20,
+            "tokens": 242,
+            "words": 242
+          }
+        },
+        "genres": [
+          "fiction",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+):\\d+:\\d+')"
+        }
+      }
+    }
+  },
+  "Latin": {
+    "family": [
+      "IE",
+      "Latin"
+    ],
+    "treebanks": {
+      "ITTB": {
+        "files": {
+          "la_ittb-ud-dev.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2101,
+            "tokens": 29888,
+            "words": 29888
+          },
+          "la_ittb-ud-test.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2101,
+            "tokens": 29842,
+            "words": 29842
+          },
+          "la_ittb-ud-train.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 22775,
+            "tokens": 390785,
+            "words": 390785
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ]
+      },
+      "LLCT": {
+        "files": {
+          "la_llct-ud-dev.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 850,
+            "tokens": 24189,
+            "words": 24189
+          },
+          "la_llct-ud-test.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 884,
+            "tokens": 24079,
+            "words": 24079
+          },
+          "la_llct-ud-train.conllu": {
+            "metadata": [
+              "reference",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 7289,
+            "tokens": 194143,
+            "words": 194143
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ]
+      },
+      "PROIEL": {
+        "files": {
+          "la_proiel-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1234,
+            "tokens": 13939,
+            "words": 13939
+          },
+          "la_proiel-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1260,
+            "tokens": 14091,
+            "words": 14091
+          },
+          "la_proiel-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 15917,
+            "tokens": 172133,
+            "words": 172133
+          }
+        },
+        "genres": [
+          "bible",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('source')"
+        }
+      },
+      "Perseus": {
+        "files": {
+          "la_perseus-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 939,
+            "tokens": 10954,
+            "words": 10954
+          },
+          "la_perseus-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1334,
+            "tokens": 18184,
+            "words": 18184
+          }
+        },
+        "genres": [
+          "bible",
+          "fiction",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "UDante": {
+        "files": {
+          "la_udante-ud-dev.conllu": {
+            "metadata": [
+              "citation_hierarchy",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 376,
+            "tokens": 11550,
+            "words": 11610
+          },
+          "la_udante-ud-test.conllu": {
+            "metadata": [
+              "citation_hierarchy",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 419,
+            "tokens": 13401,
+            "words": 13447
+          },
+          "la_udante-ud-train.conllu": {
+            "metadata": [
+              "citation_hierarchy",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 926,
+            "tokens": 30335,
+            "words": 30436
+          }
+        },
+        "genres": [
+          "email",
+          "nonfiction",
+          "poetry"
+        ]
+      }
+    }
+  },
+  "Latvian": {
+    "family": [
+      "IE",
+      "Baltic"
+    ],
+    "treebanks": {
+      "LVTB": {
+        "files": {
+          "lv_lvtb-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1855,
+            "tokens": 29309,
+            "words": 29309
+          },
+          "lv_lvtb-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2036,
+            "tokens": 30302,
+            "words": 30302
+          },
+          "lv_lvtb-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 11460,
+            "tokens": 192723,
+            "words": 192723
+          }
+        },
+        "genres": [
+          "academic",
+          "fiction",
+          "legal",
+          "news",
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Lithuanian": {
+    "family": [
+      "IE",
+      "Baltic"
+    ],
+    "treebanks": {
+      "ALKSNIS": {
+        "files": {
+          "lt_alksnis-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 617,
+            "tokens": 11560,
+            "words": 11560
+          },
+          "lt_alksnis-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 684,
+            "tokens": 10846,
+            "words": 10846
+          },
+          "lt_alksnis-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2341,
+            "tokens": 47641,
+            "words": 47641
+          }
+        },
+        "genres": [
+          "fiction",
+          "legal",
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "HSE": {
+        "files": {
+          "lt_hse-ud-dev.conllu": {
+            "metadata": [
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 55,
+            "tokens": 1086,
+            "words": 1086
+          },
+          "lt_hse-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "ref",
+              "sent_id",
+              "text",
+              "title_en",
+              "title_lt",
+              "title_ru"
+            ],
+            "sentences": 55,
+            "tokens": 1060,
+            "words": 1060
+          },
+          "lt_hse-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 153,
+            "tokens": 3210,
+            "words": 3210
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Livvi": {
+    "family": [
+      "Uralic",
+      "Finnic"
+    ],
+    "treebanks": {
+      "KKPP": {
+        "files": {
+          "olo_kkpp-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 106,
+            "tokens": 1488,
+            "words": 1488
+          },
+          "olo_kkpp-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_fi",
+              "text_mdf",
+              "text_sms"
+            ],
+            "sentences": 19,
+            "tokens": 144,
+            "words": 144
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction",
+          "web"
+        ]
+      }
+    }
+  },
+  "Low Saxon": {
+    "treebanks": {
+      "LSDC": {
+        "files": {
+          "nds_lsdc-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "tekst_orig",
+              "text",
+              "text_orig"
+            ],
+            "sentences": 36,
+            "tokens": 1111,
+            "words": 1122
+          }
+        },
+        "genres": [
+          "fiction",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Magahi": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "MGTB": {
+        "sentences": 551,
+        "tokens": 7702,
+        "words": 7702
+      }
+    }
+  },
+  "Makurap": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "mpu_tudet-ud-test.conllu": {
+            "metadata": [
+              "document_authorship",
+              "document_reference",
+              "document_source",
+              "sent_id",
+              "text",
+              "text_eng"
+            ],
+            "sentences": 31,
+            "tokens": 146,
+            "words": 146
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Maltese": {
+    "family": [
+      "Afro-Asiatic",
+      "Semitic"
+    ],
+    "treebanks": {
+      "MUDT": {
+        "files": {
+          "mt_mudt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 433,
+            "tokens": 10209,
+            "words": 10209
+          },
+          "mt_mudt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 518,
+            "tokens": 11073,
+            "words": 11073
+          },
+          "mt_mudt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1123,
+            "tokens": 22880,
+            "words": 22880
+          }
+        },
+        "genres": [
+          "fiction",
+          "legal",
+          "news",
+          "nonfiction",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+):\\d+')"
+        }
+      }
+    }
+  },
+  "Manx": {
+    "treebanks": {
+      "Cadhan": {
+        "files": {
+          "gv_cadhan-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_fr",
+              "text_ga",
+              "text_gd"
+            ],
+            "sentences": 2319,
+            "tokens": 18502,
+            "words": 20630
+          }
+        },
+        "genres": [
+          "bible",
+          "blog",
+          "fiction",
+          "news",
+          "nonfiction",
+          "social",
+          "web",
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Marathi": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "UFAL": {
+        "files": {
+          "mr_ufal-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 46,
+            "tokens": 400,
+            "words": 440
+          },
+          "mr_ufal-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 47,
+            "tokens": 376,
+            "words": 412
+          },
+          "mr_ufal-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 373,
+            "tokens": 2730,
+            "words": 2997
+          }
+        },
+        "genres": [
+          "fiction",
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Mbya Guarani": {
+    "family": [
+      "Tupian"
+    ],
+    "treebanks": {
+      "Dooley": {
+        "files": {
+          "gun_dooley-ud-test.conllu": {
+            "metadata": [
+              "document_authorship",
+              "document_reference",
+              "document_source",
+              "document_title",
+              "sent_id",
+              "text",
+              "text_pt"
+            ],
+            "sentences": 1046,
+            "tokens": 11771,
+            "words": 11771
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('document_title')"
+        }
+      },
+      "Thomas": {
+        "files": {
+          "gun_thomas-ud-test.conllu": {
+            "metadata": [
+              "document_authorship",
+              "document_reference",
+              "document_source",
+              "document_title",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 98,
+            "tokens": 1318,
+            "words": 1318
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Middle Irish": {
+    "family": [
+      "IE",
+      "Celtic"
+    ],
+    "treebanks": {
+      "CritMITB": {
+        "sentences": 8,
+        "tokens": 107,
+        "words": 110
+      },
+      "DipMITB": {
+        "sentences": 0,
+        "tokens": 0,
+        "words": 0
+      }
+    }
+  },
+  "Moksha": {
+    "family": [
+      "Uralic",
+      "Mordvin"
+    ],
+    "treebanks": {
+      "JR": {
+        "files": {
+          "mdf_jr-ud-test.conllu": {
+            "metadata": [
+              "aannotation",
+              "sent_id",
+              "text",
+              "text[eng]",
+              "text_en",
+              "text_fi",
+              "text_kpv",
+              "text_sms",
+              "unknown"
+            ],
+            "sentences": 313,
+            "tokens": 2801,
+            "words": 2801
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Munduruku": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "myu_tudet-ud-test.conllu": {
+            "metadata": [
+              "Text_eng",
+              "document_authorship",
+              "document_source",
+              "document_title",
+              "sent_id",
+              "sent_structure",
+              "text",
+              "text_eng",
+              "text_por",
+              "text_port",
+              "text_portuguese"
+            ],
+            "sentences": 109,
+            "tokens": 507,
+            "words": 515
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Naija": {
+    "family": [
+      "Creole"
+    ],
+    "treebanks": {
+      "NSC": {
+        "files": {
+          "pcm_nsc-ud-dev.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "sound_url",
+              "speaker_id",
+              "text",
+              "text_en",
+              "text_ortho"
+            ],
+            "sentences": 991,
+            "tokens": 14577,
+            "words": 14577
+          },
+          "pcm_nsc-ud-test.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "sound_url",
+              "speaker_id",
+              "text",
+              "text_en",
+              "text_ortho"
+            ],
+            "sentences": 972,
+            "tokens": 14347,
+            "words": 14347
+          },
+          "pcm_nsc-ud-train.conllu": {
+            "metadata": [
+              "global.columns",
+              "sent_id",
+              "sound_url",
+              "speaker_id",
+              "text",
+              "text_en",
+              "text_ortho"
+            ],
+            "sentences": 7279,
+            "tokens": 111935,
+            "words": 111935
+          }
+        },
+        "genres": [
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)__\\d+')"
+        }
+      }
+    }
+  },
+  "Nayini": {
+    "treebanks": {
+      "AHA": {
+        "files": {
+          "nyq_aha-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_fa"
+            ],
+            "sentences": 10,
+            "tokens": 78,
+            "words": 78
+          }
+        },
+        "genres": [
+          "grammar-examples",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "North Sami": {
+    "family": [
+      "Uralic",
+      "Sami"
+    ],
+    "treebanks": {
+      "Giella": {
+        "files": {
+          "sme_giella-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 865,
+            "tokens": 10010,
+            "words": 10010
+          },
+          "sme_giella-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2257,
+            "tokens": 16835,
+            "words": 16835
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Norwegian": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "Bokmaal": {
+        "files": {
+          "no_bokmaal-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 2409,
+            "tokens": 36369,
+            "words": 36369
+          },
+          "no_bokmaal-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1939,
+            "tokens": 29966,
+            "words": 29966
+          },
+          "no_bokmaal-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 15696,
+            "tokens": 243886,
+            "words": 243886
+          }
+        },
+        "genres": [
+          "blog",
+          "news",
+          "nonfiction"
+        ]
+      },
+      "Nynorsk": {
+        "files": {
+          "no_nynorsk-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1890,
+            "tokens": 31250,
+            "words": 31250
+          },
+          "no_nynorsk-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1511,
+            "tokens": 24773,
+            "words": 24773
+          },
+          "no_nynorsk-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 14174,
+            "tokens": 245330,
+            "words": 245330
+          }
+        },
+        "genres": [
+          "blog",
+          "news",
+          "nonfiction"
+        ]
+      },
+      "NynorskLIA": {
+        "files": {
+          "no_nynorsklia-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 881,
+            "tokens": 10163,
+            "words": 10163
+          },
+          "no_nynorsklia-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 957,
+            "tokens": 10040,
+            "words": 10040
+          },
+          "no_nynorsklia-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 3412,
+            "tokens": 35207,
+            "words": 35207
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Old Church Slavonic": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "PROIEL": {
+        "files": {
+          "cu_proiel-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1073,
+            "tokens": 10100,
+            "words": 10100
+          },
+          "cu_proiel-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1141,
+            "tokens": 10031,
+            "words": 10031
+          },
+          "cu_proiel-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 4124,
+            "tokens": 37432,
+            "words": 37432
+          }
+        },
+        "genres": [
+          "bible"
+        ],
+        "groups": {
+          "documents": "metadata('source')"
+        }
+      }
+    }
+  },
+  "Old East Slavic": {
+    "treebanks": {
+      "RNC": {
+        "files": {
+          "orv_rnc-ud-test.conllu": {
+            "metadata": [
+              "created",
+              "newdoc",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "title",
+              "unknown"
+            ],
+            "sentences": 637,
+            "tokens": 20174,
+            "words": 20174
+          },
+          "orv_rnc-ud-train.conllu": {
+            "metadata": [
+              "created",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 320,
+            "tokens": 10156,
+            "words": 10156
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ]
+      },
+      "TOROT": {
+        "files": {
+          "orv_torot-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1852,
+            "tokens": 15791,
+            "words": 15791
+          },
+          "orv_torot-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1756,
+            "tokens": 15359,
+            "words": 15359
+          },
+          "orv_torot-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 13336,
+            "tokens": 118630,
+            "words": 118630
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Old French": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "SRCMF": {
+        "files": {
+          "fro_srcmf-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1842,
+            "tokens": 17362,
+            "words": 17362
+          },
+          "fro_srcmf-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1927,
+            "tokens": 17358,
+            "words": 17358
+          },
+          "fro_srcmf-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 13909,
+            "tokens": 136020,
+            "words": 136020
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction",
+          "poetry"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Old Russian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "RNC": {
+        "files": {
+          "orv_rnc-ud-test.conllu": {
+            "metadata": [
+              "created",
+              "newdoc",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "title",
+              "unknown"
+            ],
+            "sentences": 637,
+            "tokens": 20174,
+            "words": 20174
+          },
+          "orv_rnc-ud-train.conllu": {
+            "metadata": [
+              "created",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 320,
+            "tokens": 10156,
+            "words": 10156
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)-\\d+')",
+          "paragraphs": "comment('newpar')"
+        }
+      },
+      "TOROT": {
+        "files": {
+          "orv_torot-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1852,
+            "tokens": 15791,
+            "words": 15791
+          },
+          "orv_torot-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 1756,
+            "tokens": 15359,
+            "words": 15359
+          },
+          "orv_torot-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 13336,
+            "tokens": 118630,
+            "words": 118630
+          }
+        },
+        "genres": [
+          "legal",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('source')"
+        }
+      }
+    }
+  },
+  "Old Turkish": {
+    "treebanks": {
+      "Tonqq": {
+        "files": {
+          "otk_tonqq-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 18,
+            "tokens": 221,
+            "words": 221
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Persian": {
+    "family": [
+      "IE",
+      "Iranian"
+    ],
+    "treebanks": {
+      "PerDT": {
+        "files": {
+          "fa_perdt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1456,
+            "tokens": 24769,
+            "words": 25147
+          },
+          "fa_perdt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1455,
+            "tokens": 23828,
+            "words": 24133
+          },
+          "fa_perdt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 26196,
+            "tokens": 445786,
+            "words": 452496
+          }
+        },
+        "genres": [
+          "academic",
+          "blog",
+          "fiction",
+          "news",
+          "nonfiction",
+          "web"
+        ]
+      },
+      "Seraji": {
+        "files": {
+          "fa_seraji-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 599,
+            "tokens": 15755,
+            "words": 15832
+          },
+          "fa_seraji-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 600,
+            "tokens": 15925,
+            "words": 16024
+          },
+          "fa_seraji-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4798,
+            "tokens": 119945,
+            "words": 121064
+          }
+        },
+        "genres": [
+          "fiction",
+          "legal",
+          "medical",
+          "news",
+          "nonfiction",
+          "social",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Polish": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "LFG": {
+        "files": {
+          "pl_lfg-ud-dev.conllu": {
+            "metadata": [
+              "converted_from_file",
+              "genre",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1745,
+            "tokens": 13105,
+            "words": 13105
+          },
+          "pl_lfg-ud-test.conllu": {
+            "metadata": [
+              "converted_from_file",
+              "genre",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1727,
+            "tokens": 13112,
+            "words": 13112
+          },
+          "pl_lfg-ud-train.conllu": {
+            "metadata": [
+              "converted_from_file",
+              "genre",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 13774,
+            "tokens": 104750,
+            "words": 104750
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction",
+          "social",
+          "spoken"
+        ],
+        "groups": {
+          "genres": "metadata('genre')"
+        }
+      },
+      "PDB": {
+        "files": {
+          "pl_pdb-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2215,
+            "tokens": 34429,
+            "words": 34683
+          },
+          "pl_pdb-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2215,
+            "tokens": 33352,
+            "words": 33617
+          },
+          "pl_pdb-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 17722,
+            "tokens": 279596,
+            "words": 281736
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "pl_pud-ud-test.conllu": {
+            "metadata": [
+              "conversion_status",
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1000,
+            "tokens": 18338,
+            "words": 18389
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('orig_file_sentence', '(?P<val>[a-z]\\d{5})\\d+#\\d+')",
+          "genres": "metadata('orig_file_sentence', '(?P<val>[a-z]+)\\d+#\\d+')"
+        }
+      }
+    }
+  },
+  "Portuguese": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "Bosque": {
+        "files": {
+          "pt_bosque-ud-dev.conllu": {
+            "metadata": [
+              "id",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 560,
+            "tokens": 10092,
+            "words": 10850
+          },
+          "pt_bosque-ud-test.conllu": {
+            "metadata": [
+              "id",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 476,
+            "tokens": 9458,
+            "words": 10202
+          },
+          "pt_bosque-ud-train.conllu": {
+            "metadata": [
+              "MERGED",
+              "Source",
+              "id",
+              "sent_id",
+              "source",
+              "text"
+            ],
+            "sentences": 8328,
+            "tokens": 191407,
+            "words": 206774
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "GSD": {
+        "files": {
+          "pt_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1210,
+            "tokens": 29832,
+            "words": 32176
+          },
+          "pt_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1204,
+            "tokens": 29396,
+            "words": 31539
+          },
+          "pt_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 9664,
+            "tokens": 238711,
+            "words": 256137
+          }
+        },
+        "genres": [
+          "blog",
+          "news"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "pt_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 21917,
+            "words": 23407
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Romanian": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "ArT": {
+        "files": {
+          "ro_art-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 50,
+            "tokens": 573,
+            "words": 573
+          }
+        },
+        "genres": [
+          "fiction"
+        ]
+      },
+      "Nonstandard": {
+        "files": {
+          "ro_nonstandard-ud-dev.conllu": {
+            "metadata": [
+              "Ert\u0103ciunea",
+              "Rhyme",
+              "citation-part",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 1052,
+            "tokens": 18569,
+            "words": 18569
+          },
+          "ro_nonstandard-ud-test.conllu": {
+            "metadata": [
+              "Povestea\u0219te",
+              "Rhyme",
+              "citation-part",
+              "ext",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "txt",
+              "unknown"
+            ],
+            "sentences": 1052,
+            "tokens": 20986,
+            "words": 20986
+          },
+          "ro_nonstandard-ud-train.conllu": {
+            "metadata": [
+              "Rhyme",
+              "citation-part",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 24121,
+            "tokens": 532881,
+            "words": 532881
+          }
+        },
+        "genres": [
+          "bible",
+          "poetry"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "RRT": {
+        "files": {
+          "ro_rrt-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 752,
+            "tokens": 17074,
+            "words": 17074
+          },
+          "ro_rrt-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 729,
+            "tokens": 16324,
+            "words": 16324
+          },
+          "ro_rrt-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 8043,
+            "tokens": 185113,
+            "words": 185113
+          }
+        },
+        "genres": [
+          "academic",
+          "fiction",
+          "legal",
+          "medical",
+          "news",
+          "nonfiction",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      },
+      "SiMoNERo": {
+        "files": {
+          "ro_simonero-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 443,
+            "tokens": 14611,
+            "words": 14611
+          },
+          "ro_simonero-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 491,
+            "tokens": 14552,
+            "words": 14552
+          },
+          "ro_simonero-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3747,
+            "tokens": 116857,
+            "words": 116857
+          }
+        },
+        "genres": [
+          "medical"
+        ]
+      }
+    }
+  },
+  "Russian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "GSD": {
+        "files": {
+          "ru_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 579,
+            "tokens": 11709,
+            "words": 11709
+          },
+          "ru_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 601,
+            "tokens": 11385,
+            "words": 11385
+          },
+          "ru_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 3850,
+            "tokens": 74906,
+            "words": 74906
+          }
+        },
+        "genres": [
+          "wiki"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "ru_pud-ud-test.conllu": {
+            "metadata": [
+              "english_text",
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1000,
+            "tokens": 19355,
+            "words": 19355
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "SynTagRus": {
+        "files": {
+          "ru_syntagrus-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 6584,
+            "tokens": 118490,
+            "words": 118490
+          },
+          "ru_syntagrus-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 6491,
+            "tokens": 117329,
+            "words": 117329
+          },
+          "ru_syntagrus-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 48814,
+            "tokens": 870486,
+            "words": 870486
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)_\\d+')"
+        }
+      },
+      "Taiga": {
+        "files": {
+          "ru_taiga-ud-dev.conllu": {
+            "metadata": [
+              "genre",
+              "sent_id",
+              "speaker",
+              "text",
+              "title",
+              "unknown"
+            ],
+            "sentences": 945,
+            "tokens": 10096,
+            "words": 10096
+          },
+          "ru_taiga-ud-test.conllu": {
+            "metadata": [
+              "genre",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 881,
+            "tokens": 10274,
+            "words": 10274
+          },
+          "ru_taiga-ud-train.conllu": {
+            "metadata": [
+              "answer",
+              "author",
+              "generator",
+              "genre",
+              "newdoc id",
+              "newdoc_id",
+              "path",
+              "review-category",
+              "review-date",
+              "review-dislikes",
+              "review-likes",
+              "review-place",
+              "sent_id",
+              "text",
+              "title",
+              "topic",
+              "udpipe_model",
+              "udpipe_model_licence",
+              "unknown"
+            ],
+            "sentences": 16044,
+            "tokens": 176626,
+            "words": 176626
+          }
+        },
+        "genres": [
+          "blog",
+          "fiction",
+          "news",
+          "poetry",
+          "social",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "comment('^newdoc( id)?')",
+          "genres": "metadata('genre')"
+        }
+      }
+    }
+  },
+  "Sanskrit": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "UFAL": {
+        "files": {
+          "sa_ufal-ud-test.conllu": {
+            "metadata": [
+              "# newpar id",
+              "french_translation",
+              "ftext",
+              "ftranslit",
+              "newdoc id",
+              "newpar id",
+              "orig",
+              "ptext",
+              "ptext(101)",
+              "ptext(103)",
+              "ptext(104)",
+              "ptext(105)",
+              "ptext(106)",
+              "ptext(107)",
+              "ptext(108)",
+              "ptext(109)",
+              "ptext(113)",
+              "ptext(114)",
+              "ptext(116)",
+              "ptext(117)",
+              "ptext(119)",
+              "ptext(120)",
+              "ptext(123)",
+              "ptext(126)",
+              "ptext(129)",
+              "ptext(130)",
+              "ptext(131)",
+              "ptext(132)",
+              "ptext(133)",
+              "ptext(134)",
+              "ptext(135)",
+              "ptext(136)",
+              "ptext(137)",
+              "ptext(138)",
+              "ptext(139)",
+              "ptext(140)",
+              "ptext(142)",
+              "ptext(143)",
+              "ptext(144)",
+              "ptext(153)",
+              "ptext(154)",
+              "ptext(155)",
+              "ptext(156)",
+              "ptext(162)",
+              "ptext(163)",
+              "ptext(164)",
+              "ptext(165)",
+              "ptext(67)",
+              "ptext(69)",
+              "ptext(74)",
+              "ptext(76)",
+              "ptext(78)",
+              "ptext(79)",
+              "ptext(80)",
+              "ptext(81)",
+              "ptext(84)",
+              "ptext(85)",
+              "ptext(86)",
+              "ptext(87)",
+              "ptext(88)",
+              "ptext(89)",
+              "ptext(90)",
+              "ptext(91)",
+              "ptext(92)",
+              "ptext(93)",
+              "ptext(94)",
+              "ptext(95)",
+              "ptext(96)",
+              "ptext(97)",
+              "ptext1",
+              "ptext2",
+              "ptext3",
+              "ptext4",
+              "ptext5",
+              "ptranslit",
+              "ryder",
+              "ryder(101)",
+              "ryder(103)",
+              "ryder(104)",
+              "ryder(105)",
+              "ryder(106)",
+              "ryder(107)",
+              "ryder(108)",
+              "ryder(109)",
+              "ryder(113)",
+              "ryder(114)",
+              "ryder(116)",
+              "ryder(117)",
+              "ryder(119)",
+              "ryder(120)",
+              "ryder(123)",
+              "ryder(126)",
+              "ryder(129)",
+              "ryder(130)",
+              "ryder(131)",
+              "ryder(132)",
+              "ryder(133)",
+              "ryder(134)",
+              "ryder(135)",
+              "ryder(136)",
+              "ryder(137)",
+              "ryder(138)",
+              "ryder(139)",
+              "ryder(140)",
+              "ryder(142)",
+              "ryder(143)",
+              "ryder(144)",
+              "ryder(153)",
+              "ryder(154)",
+              "ryder(155)",
+              "ryder(156)",
+              "ryder(162)",
+              "ryder(163)",
+              "ryder(164)",
+              "ryder(165)",
+              "ryder(67)",
+              "ryder(69)",
+              "ryder(76)",
+              "ryder(78)",
+              "ryder(79)",
+              "ryder(80)",
+              "ryder(81)",
+              "ryder(84)",
+              "ryder(85)",
+              "ryder(86)",
+              "ryder(87)",
+              "ryder(88)",
+              "ryder(89)",
+              "ryder(90)",
+              "ryder(91)",
+              "ryder(92)",
+              "ryder(93)",
+              "ryder(94)",
+              "ryder(95)",
+              "ryder(96)",
+              "ryder(97)",
+              "ryder_extra",
+              "sent_id",
+              "text",
+              "text(67)",
+              "text-en",
+              "text_en",
+              "text_en2",
+              "text_fr",
+              "translit",
+              "translit(67)",
+              "unknown",
+              "upapanne sati vibhave",
+              "wikisource",
+              "wikisource-ryder",
+              "wikisource_ryder",
+              "wsid",
+              "wtext",
+              "wtranslit"
+            ],
+            "sentences": 230,
+            "tokens": 1481,
+            "words": 1843
+          }
+        },
+        "genres": [
+          "fiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      },
+      "Vedic": {
+        "files": {
+          "sa_vedic-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1473,
+            "tokens": 9672,
+            "words": 9672
+          },
+          "sa_vedic-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2524,
+            "tokens": 17445,
+            "words": 17445
+          }
+        },
+        "genres": [
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Scottish Gaelic": {
+    "family": [
+      "IE",
+      "Celtic"
+    ],
+    "treebanks": {
+      "ARCOSG": {
+        "files": {
+          "gd_arcosg-ud-dev.conllu": {
+            "metadata": [
+              "comment",
+              "newdoc id",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 646,
+            "tokens": 10037,
+            "words": 10409
+          },
+          "gd_arcosg-ud-test.conllu": {
+            "metadata": [
+              "comment",
+              "newdoc id",
+              "sent_id",
+              "speaker",
+              "text"
+            ],
+            "sentences": 539,
+            "tokens": 10033,
+            "words": 10403
+          },
+          "gd_arcosg-ud-train.conllu": {
+            "metadata": [
+              "comment",
+              "newdoc id",
+              "sent_id",
+              "speaker",
+              "text",
+              "unknown"
+            ],
+            "sentences": 2613,
+            "tokens": 49457,
+            "words": 51610
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Serbian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "SET": {
+        "files": {
+          "sr_set-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 536,
+            "tokens": 11993,
+            "words": 11993
+          },
+          "sr_set-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 520,
+            "tokens": 11421,
+            "words": 11421
+          },
+          "sr_set-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "url"
+            ],
+            "sentences": 3328,
+            "tokens": 74259,
+            "words": 74259
+          }
+        },
+        "genres": [
+          "news"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Sindhi": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "MazharDootio": {
+        "sentences": 663,
+        "tokens": 6863,
+        "words": 6863
+      }
+    }
+  },
+  "Skolt Sami": {
+    "family": [
+      "Uralic",
+      "Sami"
+    ],
+    "treebanks": {
+      "Giellagas": {
+        "files": {
+          "sms_giellagas-ud-test.conllu": {
+            "metadata": [
+              "-:- coding",
+              "aannotation",
+              "sent_id",
+              "story_id",
+              "text",
+              "text_fi",
+              "text_mdf",
+              "text_olo"
+            ],
+            "sentences": 178,
+            "tokens": 2175,
+            "words": 2176
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction",
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+?):.+')"
+        }
+      }
+    }
+  },
+  "Slovak": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "SNK": {
+        "files": {
+          "sk_snk-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1060,
+            "tokens": 12733,
+            "words": 12733
+          },
+          "sk_snk-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1061,
+            "tokens": 12735,
+            "words": 12736
+          },
+          "sk_snk-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 8483,
+            "tokens": 80575,
+            "words": 80628
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction"
+        ],
+        "sentences": 10604,
+        "tokens": 106043,
+        "words": 106043
+      }
+    }
+  },
+  "Slovenian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "SSJ": {
+        "files": {
+          "sl_ssj-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 734,
+            "tokens": 14063,
+            "words": 14063
+          },
+          "sl_ssj-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 788,
+            "tokens": 14077,
+            "words": 14077
+          },
+          "sl_ssj-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 6478,
+            "tokens": 112530,
+            "words": 112530
+          }
+        },
+        "genres": [
+          "fiction",
+          "news",
+          "nonfiction"
+        ]
+      },
+      "SST": {
+        "files": {
+          "sl_sst-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1110,
+            "tokens": 10015,
+            "words": 10015
+          },
+          "sl_sst-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2078,
+            "tokens": 19473,
+            "words": 19473
+          }
+        },
+        "genres": [
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+)\\-\\d+')"
+        }
+      }
+    }
+  },
+  "Soi": {
+    "treebanks": {
+      "AHA": {
+        "files": {
+          "soj_aha-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "text_en",
+              "text_fa"
+            ],
+            "sentences": 8,
+            "tokens": 55,
+            "words": 55
+          }
+        },
+        "genres": [
+          "grammar-examples",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "South Levantine Arabic": {
+    "treebanks": {
+      "MADAR": {
+        "files": {
+          "ajp_madar-ud-test.conllu": {
+            "metadata": [
+              "#",
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 100,
+            "tokens": 789,
+            "words": 789
+          }
+        },
+        "genres": [
+          "social",
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Spanish": {
+    "family": [
+      "IE",
+      "Romance"
+    ],
+    "treebanks": {
+      "AnCora": {
+        "files": {
+          "es_ancora-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1654,
+            "tokens": 52159,
+            "words": 53423
+          },
+          "es_ancora-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1721,
+            "tokens": 52431,
+            "words": 53599
+          },
+          "es_ancora-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 14305,
+            "tokens": 443065,
+            "words": 453223
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "GSD": {
+        "files": {
+          "es_gsd-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1400,
+            "tokens": 36464,
+            "words": 37151
+          },
+          "es_gsd-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 426,
+            "tokens": 11733,
+            "words": 12000
+          },
+          "es_gsd-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 14187,
+            "tokens": 375150,
+            "words": 382436
+          }
+        },
+        "genres": [
+          "blog",
+          "news",
+          "reviews",
+          "wiki"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "es_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 22822,
+            "words": 23287
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Swedish": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "LinES": {
+        "files": {
+          "sv_lines-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1032,
+            "tokens": 18515,
+            "words": 18515
+          },
+          "sv_lines-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1035,
+            "tokens": 16994,
+            "words": 16994
+          },
+          "sv_lines-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 3176,
+            "tokens": 55451,
+            "words": 55451
+          }
+        },
+        "genres": [
+          "fiction",
+          "nonfiction",
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc docid')"
+        }
+      },
+      "PUD": {
+        "files": {
+          "sv_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 19076,
+            "words": 19076
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "Talbanken": {
+        "files": {
+          "sv_talbanken-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 504,
+            "tokens": 9797,
+            "words": 9797
+          },
+          "sv_talbanken-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1219,
+            "tokens": 20377,
+            "words": 20377
+          },
+          "sv_talbanken-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4303,
+            "tokens": 66646,
+            "words": 66646
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Swedish Sign Language": {
+    "family": [
+      "Sign Language"
+    ],
+    "treebanks": {
+      "SSLC": {
+        "files": {
+          "swl_sslc-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 82,
+            "tokens": 684,
+            "words": 684
+          },
+          "swl_sslc-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 34,
+            "tokens": 282,
+            "words": 282
+          },
+          "swl_sslc-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 87,
+            "tokens": 644,
+            "words": 644
+          }
+        },
+        "genres": [
+          "spoken"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>.+?):.+')"
+        }
+      }
+    }
+  },
+  "Swiss German": {
+    "family": [
+      "IE",
+      "Germanic"
+    ],
+    "treebanks": {
+      "UZH": {
+        "files": {
+          "gsw_uzh-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 100,
+            "tokens": 1444,
+            "words": 1444
+          }
+        },
+        "genres": [
+          "blog",
+          "fiction",
+          "news",
+          "nonfiction",
+          "wiki"
+        ]
+      }
+    }
+  },
+  "Tagalog": {
+    "family": [
+      "Austronesian",
+      "Central Philippine"
+    ],
+    "treebanks": {
+      "TRG": {
+        "files": {
+          "tl_trg-ud-test.conllu": {
+            "metadata": [
+              "AP",
+              "BP",
+              "DP",
+              "OP",
+              "gloss",
+              "sent_id",
+              "source",
+              "text",
+              "text_en",
+              "unknown"
+            ],
+            "sentences": 128,
+            "tokens": 734,
+            "words": 734
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      },
+      "Ugnayan": {
+        "files": {
+          "tl_ugnayan-ud-test.conllu": {
+            "metadata": [
+              "newdoc_id",
+              "sent_id",
+              "text",
+              "text_en",
+              "text_id"
+            ],
+            "sentences": 94,
+            "tokens": 1011,
+            "words": 1097
+          }
+        },
+        "genres": [
+          "fiction",
+          "nonfiction"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc_id')"
+        }
+      }
+    }
+  },
+  "Tamil": {
+    "family": [
+      "Dravidian",
+      "Southern"
+    ],
+    "treebanks": {
+      "MWTT": {
+        "files": {
+          "ta_mwtt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "source",
+              "text",
+              "tn_sent",
+              "tn_sent_id",
+              "translation",
+              "translit"
+            ],
+            "sentences": 534,
+            "tokens": 2536,
+            "words": 2584
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      },
+      "TTB": {
+        "files": {
+          "ta_ttb-ud-dev.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 80,
+            "tokens": 1129,
+            "words": 1263
+          },
+          "ta_ttb-ud-test.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 120,
+            "tokens": 1772,
+            "words": 1989
+          },
+          "ta_ttb-ud-train.conllu": {
+            "metadata": [
+              "orig_file_sentence",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 400,
+            "tokens": 5734,
+            "words": 6329
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Telugu": {
+    "family": [
+      "Dravidian",
+      "South Central"
+    ],
+    "treebanks": {
+      "MTG": {
+        "files": {
+          "te_mtg-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 131,
+            "tokens": 662,
+            "words": 662
+          },
+          "te_mtg-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 146,
+            "tokens": 721,
+            "words": 721
+          },
+          "te_mtg-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 1051,
+            "tokens": 5082,
+            "words": 5082
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      }
+    }
+  },
+  "Thai": {
+    "family": [
+      "Tai-Kadai"
+    ],
+    "treebanks": {
+      "PUD": {
+        "files": {
+          "th_pud-ud-test.conllu": {
+            "metadata": [
+              "ToDoOrigText",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 22322,
+            "words": 22322
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('sent_id', '(?P<val>[a-z]\\d{5})\\d+')",
+          "genres": "metadata('sent_id', '(?P<val>[a-z]+)\\d+')"
+        }
+      }
+    }
+  },
+  "Tupinamba": {
+    "treebanks": {
+      "TuDeT": {
+        "files": {
+          "tpn_tudet-ud-test.conllu": {
+            "metadata": [
+              "document_authorship",
+              "document_reference",
+              "document_title",
+              "sent_id",
+              "text",
+              "text_eng",
+              "text_po",
+              "text_por",
+              "text_port"
+            ],
+            "sentences": 210,
+            "tokens": 1499,
+            "words": 1515
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Turkish": {
+    "family": [
+      "Turkic",
+      "Southwestern"
+    ],
+    "treebanks": {
+      "BOUN": {
+        "files": {
+          "tr_boun-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 979,
+            "tokens": 11974,
+            "words": 12074
+          },
+          "tr_boun-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 979,
+            "tokens": 11983,
+            "words": 12095
+          },
+          "tr_boun-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 7803,
+            "tokens": 97259,
+            "words": 98214
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "FrameNet": {
+        "files": {
+          "tr_framenet-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 205,
+            "tokens": 1421,
+            "words": 1421
+          },
+          "tr_framenet-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 205,
+            "tokens": 1467,
+            "words": 1467
+          },
+          "tr_framenet-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2288,
+            "tokens": 16333,
+            "words": 16333
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      },
+      "GB": {
+        "files": {
+          "tr_gb-ud-test.conllu": {
+            "metadata": [
+              "em",
+              "en",
+              "end",
+              "gas",
+              "gl",
+              "gl ",
+              "glos",
+              "gloss",
+              "glosse",
+              "glosss",
+              "gloww",
+              "n",
+              "ne",
+              "sent_id",
+              "text",
+              "to",
+              "unknown",
+              "wn"
+            ],
+            "sentences": 2880,
+            "tokens": 16806,
+            "words": 17177
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      },
+      "IMST": {
+        "files": {
+          "tr_imst-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 988,
+            "tokens": 9777,
+            "words": 10046
+          },
+          "tr_imst-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 983,
+            "tokens": 9797,
+            "words": 10029
+          },
+          "tr_imst-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text",
+              "unknown"
+            ],
+            "sentences": 3664,
+            "tokens": 36822,
+            "words": 37784
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "Kenet": {
+        "files": {
+          "tr_kenet-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1646,
+            "tokens": 17555,
+            "words": 17555
+          },
+          "tr_kenet-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1643,
+            "tokens": 17817,
+            "words": 17817
+          },
+          "tr_kenet-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 15398,
+            "tokens": 143288,
+            "words": 143288
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      },
+      "PUD": {
+        "files": {
+          "tr_pud-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text_en"
+            ],
+            "sentences": 1000,
+            "tokens": 16536,
+            "words": 16882
+          }
+        },
+        "genres": [
+          "news",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "genres": "metadata('newdoc id', '(?P<val>[a-z]+)\\d+')"
+        }
+      },
+      "Penn": {
+        "files": {
+          "tr_penn-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 359,
+            "tokens": 3214,
+            "words": 3214
+          },
+          "tr_penn-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 540,
+            "tokens": 4597,
+            "words": 4597
+          },
+          "tr_penn-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 8658,
+            "tokens": 79556,
+            "words": 79556
+          }
+        },
+        "genres": [
+          "news",
+          "nonfiction"
+        ]
+      },
+      "Tourism": {
+        "files": {
+          "tr_tourism-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2181,
+            "tokens": 10501,
+            "words": 10501
+          },
+          "tr_tourism-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 2193,
+            "tokens": 10189,
+            "words": 10189
+          },
+          "tr_tourism-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 15375,
+            "tokens": 71466,
+            "words": 71466
+          }
+        },
+        "genres": [
+          "reviews"
+        ]
+      }
+    }
+  },
+  "Turkish German": {
+    "treebanks": {
+      "SAGT": {
+        "files": {
+          "qtd_sagt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 801,
+            "tokens": 12959,
+            "words": 13057
+          },
+          "qtd_sagt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 805,
+            "tokens": 13973,
+            "words": 14092
+          },
+          "qtd_sagt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 578,
+            "tokens": 10008,
+            "words": 10084
+          }
+        },
+        "genres": [
+          "spoken"
+        ]
+      }
+    }
+  },
+  "Ukrainian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "IU": {
+        "files": {
+          "uk_iu-ud-dev.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit",
+              "unknown"
+            ],
+            "sentences": 672,
+            "tokens": 12575,
+            "words": 12576
+          },
+          "uk_iu-ud-test.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit",
+              "unknown"
+            ],
+            "sentences": 892,
+            "tokens": 17122,
+            "words": 17124
+          },
+          "uk_iu-ud-train.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit",
+              "unknown"
+            ],
+            "sentences": 5496,
+            "tokens": 92358,
+            "words": 92402
+          }
+        },
+        "genres": [
+          "blog",
+          "email",
+          "fiction",
+          "grammar-examples",
+          "legal",
+          "news",
+          "reviews",
+          "social",
+          "web",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')",
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Upper Sorbian": {
+    "family": [
+      "IE",
+      "Slavic"
+    ],
+    "treebanks": {
+      "UFAL": {
+        "files": {
+          "hsb_ufal-ud-test.conllu": {
+            "metadata": [
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 623,
+            "tokens": 10736,
+            "words": 10736
+          },
+          "hsb_ufal-ud-train.conllu": {
+            "metadata": [
+              "newpar id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 23,
+            "tokens": 460,
+            "words": 460
+          }
+        },
+        "genres": [
+          "nonfiction",
+          "wiki"
+        ],
+        "groups": {
+          "paragraphs": "metadata('newpar id')"
+        }
+      }
+    }
+  },
+  "Urdu": {
+    "family": [
+      "IE",
+      "Indic"
+    ],
+    "treebanks": {
+      "UDTB": {
+        "files": {
+          "ur_udtb-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 552,
+            "tokens": 14581,
+            "words": 14581
+          },
+          "ur_udtb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 535,
+            "tokens": 14806,
+            "words": 14806
+          },
+          "ur_udtb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 4043,
+            "tokens": 108690,
+            "words": 108690
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Uyghur": {
+    "family": [
+      "Turkic",
+      "Southeastern"
+    ],
+    "treebanks": {
+      "UDT": {
+        "files": {
+          "ug_udt-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 900,
+            "tokens": 10644,
+            "words": 10644
+          },
+          "ug_udt-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 900,
+            "tokens": 10330,
+            "words": 10330
+          },
+          "ug_udt-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1656,
+            "tokens": 19262,
+            "words": 19262
+          }
+        },
+        "genres": [
+          "fiction"
+        ]
+      }
+    }
+  },
+  "Vietnamese": {
+    "family": [
+      "Austro-Asiatic",
+      "Viet-Muong"
+    ],
+    "treebanks": {
+      "VTB": {
+        "files": {
+          "vi_vtb-ud-dev.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 800,
+            "tokens": 11514,
+            "words": 11514
+          },
+          "vi_vtb-ud-test.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 800,
+            "tokens": 11955,
+            "words": 11955
+          },
+          "vi_vtb-ud-train.conllu": {
+            "metadata": [
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1400,
+            "tokens": 20285,
+            "words": 20285
+          }
+        },
+        "genres": [
+          "news"
+        ]
+      }
+    }
+  },
+  "Warlpiri": {
+    "family": [
+      "Pama-Nyungan"
+    ],
+    "treebanks": {
+      "UFAL": {
+        "files": {
+          "wbp_ufal-ud-test.conllu": {
+            "metadata": [
+              "Allative",
+              "Comitative",
+              "Elative/ablative",
+              "Locative",
+              "Perlative",
+              "gloss",
+              "sent_id",
+              "source",
+              "text",
+              "text_en",
+              "unknown"
+            ],
+            "sentences": 55,
+            "tokens": 306,
+            "words": 315
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      }
+    }
+  },
+  "Welsh": {
+    "family": [
+      "IE",
+      "Celtic"
+    ],
+    "treebanks": {
+      "CCG": {
+        "files": {
+          "cy_ccg-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text[eng]"
+            ],
+            "sentences": 411,
+            "tokens": 9041,
+            "words": 9174
+          },
+          "cy_ccg-ud-test.conllu": {
+            "metadata": [
+              "TOSO:",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text[eng]",
+              "unknown"
+            ],
+            "sentences": 953,
+            "tokens": 16754,
+            "words": 17025
+          },
+          "cy_ccg-ud-train.conllu": {
+            "metadata": [
+              "AB",
+              "newdoc id",
+              "sent_id",
+              "text",
+              "text[eng]",
+              "unknown"
+            ],
+            "sentences": 469,
+            "tokens": 10450,
+            "words": 10638
+          }
+        },
+        "genres": [
+          "fiction",
+          "grammar-examples",
+          "news",
+          "nonfiction",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Western Armenian": {
+    "treebanks": {
+      "ArmTDP": {
+        "files": {
+          "hyw_armtdp-ud-dev.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 505,
+            "tokens": 9805,
+            "words": 9930
+          },
+          "hyw_armtdp-ud-test.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 478,
+            "tokens": 10041,
+            "words": 10188
+          },
+          "hyw_armtdp-ud-train.conllu": {
+            "metadata": [
+              "doc_title",
+              "newdoc id",
+              "newpar id",
+              "sent_id",
+              "text",
+              "translit"
+            ],
+            "sentences": 797,
+            "tokens": 15526,
+            "words": 15808
+          }
+        },
+        "genres": [
+          "fiction",
+          "nonfiction"
+        ]
+      }
+    }
+  },
+  "Wolof": {
+    "family": [
+      "Niger-Congo",
+      "Northern Atlantic"
+    ],
+    "treebanks": {
+      "WTB": {
+        "files": {
+          "wo_wtb-ud-dev.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 449,
+            "tokens": 9966,
+            "words": 10294
+          },
+          "wo_wtb-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 470,
+            "tokens": 10049,
+            "words": 10403
+          },
+          "wo_wtb-ud-train.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 1188,
+            "tokens": 22817,
+            "words": 23561
+          }
+        },
+        "genres": [
+          "bible",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc_id')"
+        }
+      }
+    }
+  },
+  "Yoruba": {
+    "family": [
+      "Niger-Congo",
+      "Defoid"
+    ],
+    "treebanks": {
+      "YTB": {
+        "files": {
+          "yo_ytb-ud-test.conllu": {
+            "metadata": [
+              "newdoc id",
+              "sent_id",
+              "source",
+              "text",
+              "text_en",
+              "unknown"
+            ],
+            "sentences": 318,
+            "tokens": 8198,
+            "words": 8243
+          }
+        },
+        "genres": [
+          "bible",
+          "wiki"
+        ],
+        "groups": {
+          "documents": "metadata('newdoc id')"
+        }
+      }
+    }
+  },
+  "Yupik": {
+    "treebanks": {
+      "SLI": {
+        "files": {
+          "ess_sli-ud-test.conllu": {
+            "metadata": [
+              "gloss",
+              "labels",
+              "sent_id",
+              "text"
+            ],
+            "sentences": 309,
+            "tokens": 1221,
+            "words": 2568
+          }
+        },
+        "genres": [
+          "grammar-examples"
+        ]
+      }
+    }
+  }
+}
