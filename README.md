@@ -1,6 +1,6 @@
 # Genre Analysis of Universal Dependencies
 
-This repository accompanies the SyntaxFest 2022 paper **"How Universal is Genre in Universal Dependencies?"** ([Müller-Eberstein, van der Goot and Plank, 2021](https://personads.me/x/syntaxfest-2022-paper)). After downloading the data and installing the required packages, the paper's experiments can be run using `run-experiments.sh` shell script.
+This repository accompanies the SyntaxFest 2021 paper **"How Universal is Genre in Universal Dependencies?"** ([Müller-Eberstein, van der Goot and Plank, 2021](https://personads.me/x/syntaxfest-2021-paper)). After downloading the data and installing the required packages, the paper's experiments can be run using `run-experiments.sh` shell script.
 
 ## Installation
 
